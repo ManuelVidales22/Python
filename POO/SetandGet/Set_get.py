@@ -15,7 +15,7 @@ class Persona:
     
     def set_edad(self, nueva_edad):
         self._edad = nueva_edad
-        
+    
     
 
 

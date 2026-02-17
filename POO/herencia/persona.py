@@ -5,7 +5,7 @@ class persona:
         self.nacionalidad = nacionalidad
 
     def saludar(self):
-        print(f"Hola, mi nombre es {self.nombre}, tengo {self.edad} años y soy {self.nacionalidad}")
+        print(f"Hola, mi nombre es {self.nombre}, tengo {self.edad} años")
 
 
     
@@ -23,6 +23,7 @@ class empleado(persona):
 
 trabajador = empleado("Ana", 22, "Colombiana", "Ingeniera", 5000, "9am-5pm")
 print(f"El nombre del empleado es: {trabajador.nombre} y su salario es de {trabajador.salario}" )
+trabajador.saludar()
 
 #trabajador.saludar()
 
