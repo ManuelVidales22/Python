@@ -1,6 +1,6 @@
 """
 Polimorfismo es enviar un mensaje a diferentes tipos de objetos y cada uno responde de una manera diferente.
-Entendendo que su atributos y metodos son diferenets, pero el mensaje es el mismo. 
+Entendendo que su atributos y metodos son diferentes, pero el mensaje es el mismo. 
 Es decir, el mismo método puede tener diferentes comportamientos dependiendo del objeto que lo invoque.
 
 """
